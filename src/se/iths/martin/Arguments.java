@@ -8,24 +8,24 @@ public class Arguments {
 
         int income = readANumber("Vad tjänar du?");
         double taxAmount = calculateTax(income);
-        System.out.print("Då får du betala ");
-        System.out.print(taxAmount);
-        System.out.print(" i skatt.");
+        System.out.print("Då får du betala "+ taxAmount + " i skatt.");
     }
 
     public static int readANumber(String promptText){
         Scanner sc = new Scanner(System.in);
         System.out.println(promptText);
-
         return sc.nextInt();
     }
 
     public static double calculateTax(int grossIncome)
     {
+        double tax;
         if( grossIncome > 100000)
-            return grossIncome * 0.4;
+            tax = grossIncome * 0.4;
         else
-            return grossIncome * 0.3;
+            tax = grossIncome * 0.3;
+
+        return tax;
     }
 
 }
