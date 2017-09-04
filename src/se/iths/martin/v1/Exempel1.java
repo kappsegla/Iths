@@ -1,10 +1,36 @@
-package se.iths.martin;
+package se.iths.martin.v1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exempel1 {
     public static void main(String[] args) {
+        int a = 100;
+        long b = 1000302003294328948L;
+        float c = 1.0f;
+        double d = 1.0f;
+        String s = "";
+
+        c = a;
+//        int[] intArray = new int[5];
+//
+//        intArray[1] = 1;
+//        intArray[2] = 2;
+//        intArray[3] = 3;
+//        intArray[4] = 4;
+//        intArray[0] = 5;
+
+        int[] intArray = {0,1,2,3,4,5,6};
+        String[] messages = {"Hej", "Hej då", "Mata in text"};
+
+        System.out.println(messages[0]);
+
+
+
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.println(intArray[i]);
+        }
+
         // write your code here
         /*
             Flera rader med kommentarer
@@ -19,8 +45,7 @@ public class Exempel1 {
         int antal;
         try {
             antal = sc.nextInt();
-        }
-        catch(InputMismatchException e){
+        } catch (InputMismatchException e) {
             //Hantera felet här.
             antal = 0;
         }
@@ -41,17 +66,13 @@ public class Exempel1 {
 
         if (antal > 0 && antal < 100) {
 
-                System.out.println(antal);
-                System.out.println(pris);
-                System.out.println(antal * pris);
-        }
-        else if(antal == 0)
-        {
+            System.out.println(antal);
+            System.out.println(pris);
+            System.out.println(antal * pris);
+        } else if (antal == 0) {
 
             System.out.println("");
-        }
-        else
-        {
+        } else {
             System.out.println("Negativa antal kan inte vara möjligt.");
         }
     }

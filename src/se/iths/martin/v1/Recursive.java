@@ -1,4 +1,4 @@
-package se.iths.martin;
+package se.iths.martin.v1;
 
 public class Recursive {
 
