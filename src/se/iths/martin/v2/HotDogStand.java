@@ -9,8 +9,8 @@ public class HotDogStand {
 
     public void feed(Person p)
     {
-        if( p.hungry  && hotDogs > 0) {
-            p.hungry = false;
+        if( p.isHungry() && hotDogs > 0) {
+            p.setHungry(false);
             hotDogs--;
         }
     }
