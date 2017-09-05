@@ -50,6 +50,7 @@ public class Point {
         Point p1 = new Point(1, 1);
         Point p2 = new Point(4, 5);
         Point p3 = new Point(4,5);
+        Point p4 = new Point();
         System.out.println("Avståndet mellan p1 och p2 är: " + p1.distanceTo(p2));
         System.out.println("Är p1 == p2?: " + p1.equals(p2));
         System.out.println("Är p2 == p3?: " + p2.equals(p3));
