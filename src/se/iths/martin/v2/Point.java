@@ -7,6 +7,9 @@ public class Point {
     //Bör vara privata och användas via getters/setters
     private int x;
     private int y;
+    //Static variabel finns på klassen i ett exemplar. Alla instanser delar på samma lagringsplats
+    //Åtkomst genom Klassnamn.count och initieras här direkt vid deklarationen
+    public static int count = 0;
 
     //Default konstruktor. Använder constructor chaining för att skicka vidare till annan konstruktor.
     public Point() {
@@ -17,6 +20,7 @@ public class Point {
     public Point(int x, int y) {
         this.setX(x);
         this.setY(y);
+        count++;
     }
 
     //Metod som får en referens till ett annat point objekt som argument.
@@ -67,5 +71,6 @@ public class Point {
         System.out.println("Avståndet mellan p1 och p2 är: " + p1.distanceTo(p2));
         System.out.println("Är p1 == p2?: " + p1.equals(p2));
         System.out.println("Är p2 == p3?: " + p2.equals(p3));
+        System.out.println("Antal punkter skapade: " + Point.count);
     }
 }
