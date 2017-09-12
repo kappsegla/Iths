@@ -3,12 +3,10 @@ package se.iths.martin.v3;
 import java.util.ArrayList;
 
 public class Start {
-    public static void main(String[] args) {
 
+    public static void testPersons() {
         Person person = new Person("TestPerson");
-
         Student student = new Student("Studentsson");
-
         Teacher teacher = new Teacher("Martin");
 
         //Det går bra att lagra en reference till en instance av Student
@@ -26,14 +24,25 @@ public class Start {
 
         //printName(student);
         //printName(teacher);
+
+    }
+
+    public static void testBuildings() {
+
+        
+
+    }
+
+    public static void main(String[] args) {
+        //testPersons();
+        testBuildings();
     }
 
     /**
-     *
      * @param person Låter oss skicka in både Students och Teacher objekt via Person argumentet
      */
     public static void printName(Person person) {
-       System.out.println(person.getName());
+        System.out.println(person.getName());
     }
 
 }

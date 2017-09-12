@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c64dc1e-ff1c-4509-9dfc-a62dfe24ea96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/ApartmentBuilding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/Building.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/CommercialBuilding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/CottageBuilding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/FarmBuilding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/PrivateBuilding.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/iths/martin/v3/Start.java" afterPath="$PROJECT_DIR$/src/se/iths/martin/v3/Start.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +17,21 @@
       <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="351">
+              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding>
+                <element signature="method#testPersons#0;class#Start#0" expanded="false" />
+                <element signature="docComment;method#printName#0;class#Start#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Building.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -69,7 +75,6 @@
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Person.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Student.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Start.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Building.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Cottage.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/CommercialBuilding.java" />
@@ -77,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/FarmBuilding.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/PrivateBuilding.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/v3/CottageBuilding.java" />
+        <option value="$PROJECT_DIR$/src/se/iths/martin/v3/Start.java" />
       </list>
     </option>
   </component>
@@ -546,14 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/CommercialBuilding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -611,11 +609,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v3/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="351">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="method#testPersons#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#printName#0;class#Start#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
