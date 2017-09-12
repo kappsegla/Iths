@@ -13,7 +13,7 @@ public class Start {
 
         //Det går bra att lagra en reference till en instance av Student
         //i en variabel av typen Person, eftersom Student också är en Person.
-       // Person person1 = new Student();
+        //Person person1 = new Student();
 
         //Om man skulle vilja konvertera tillbaka Studenten ovan till sin rätta typ
         /*if( person1 instanceof Student) {
