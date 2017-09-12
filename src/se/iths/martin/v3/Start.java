@@ -5,6 +5,10 @@ import java.util.Random;
 
 public class Start {
 
+    public final static int MAX_BUILDINGS = 1000;
+
+    public final static boolean DEBUG = false;
+
     public static void testPersons() {
         Person person = new Person("TestPerson");
         Student student = new Student("Studentsson");
@@ -30,16 +34,39 @@ public class Start {
 
     public static void testBuildings() {
 
+        int count = 0;
+
         FarmBuilding farm = new FarmBuilding(1994, 1000000, 23);
+        count++;
         FarmBuilding farm2 = new FarmBuilding(1994, 1000000);
+        count++;
         CottageBuilding cottageBuilding = new CottageBuilding(1980, 2000000, 3);
+        count++;
         ApartmentBuilding a = new ApartmentBuilding(2007,20000000, 10);
-        a.getApartments();
+        count++;
 
+        if( count > Start.MAX_BUILDINGS) {
+            System.out.println("No more buildings for you!");
+        }
 
-        Building building = farm;
+        //Create an instance of Building. Immutable object. No setters.
+        Building building = new Building(1980,100000);
+        if( DEBUG ) {
+            System.out.println("Testkod som bara skrivs ut när vi har DEBUG == true");
+        }
+        //Only the object itself is immutable. Not the reference variable
+        //that can be changed to point to another object.
+        building = farm;
 
+        //A variable declared final can only be assigned once.
+        final Building building1 = new Building(1980,200000);
+        //The following line will fail if uncommented
+        //building1 = farm;
 
+        final FarmBuilding martinsFarm = new FarmBuilding(2010,1000,2);
+        martinsFarm.setPigs(10);
+        final FarmBuilding martinsSecondFarm;
+        martinsSecondFarm = new FarmBuilding(2011,1000,3);
     }
 
     public static void main(String[] args) {
