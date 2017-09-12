@@ -1,6 +1,7 @@
 package se.iths.martin.v3;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Start {
 
@@ -29,7 +30,15 @@ public class Start {
 
     public static void testBuildings() {
 
-        
+        FarmBuilding farm = new FarmBuilding(1994, 1000000, 23);
+        FarmBuilding farm2 = new FarmBuilding(1994, 1000000);
+        CottageBuilding cottageBuilding = new CottageBuilding(1980, 2000000, 3);
+        ApartmentBuilding a = new ApartmentBuilding(2007,20000000, 10);
+        a.getApartments();
+
+
+        Building building = farm;
+
 
     }
 
