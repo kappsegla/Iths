@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c64dc1e-ff1c-4509-9dfc-a62dfe24ea96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/exercise3/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/exercise3/Buyer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/se/iths/martin/exercise3/VehicleDealer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java" afterPath="$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
@@ -49,8 +50,34 @@
       <file leaf-file-name="Seller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buyer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Buyer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VehicleDealer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/VehicleDealer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -115,6 +142,8 @@
         <option value="$PROJECT_DIR$/src/se/iths/martin/exercise3/Boat.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/exercise3/Person.java" />
         <option value="$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java" />
+        <option value="$PROJECT_DIR$/src/se/iths/martin/exercise3/Buyer.java" />
+        <option value="$PROJECT_DIR$/src/se/iths/martin/exercise3/VehicleDealer.java" />
       </list>
     </option>
   </component>
@@ -382,16 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v2/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#equals#0;class#Point#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/iths/martin/v2/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -813,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -843,6 +854,36 @@
             <element signature="e#877#878#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Seller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/Buyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/iths/martin/exercise3/VehicleDealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
