@@ -12,8 +12,14 @@ public class PokemonCenter {
     }
 
     private void initialize() {
-        pokemons.add(new Pikachu());
-        pokemons.add(new Muk());
+        pokemons.add(new Pikachu("Bertil"));
+        pokemons.add(new Pikachu("Sune"));
+
+        pokemons.get(0).talk();
+        pokemons.get(0).attack();
+
+        pokemons.get(1).talk();
+        pokemons.get(1).attack();
 
     }
 
