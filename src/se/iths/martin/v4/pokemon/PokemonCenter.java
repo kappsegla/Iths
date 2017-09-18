@@ -10,20 +10,34 @@ public class PokemonCenter {
     private void start() {
         initialize();
     }
+    public void healPokemon(Pikachu p) {
+        p.setHealth(100);
+        System.out.println("A " + p.getClass().getSimpleName() + " healed.");
+        System.out.println("Also known as " + p.getNickname());
+    }
+
+    public void healPokemon(Pokemon p) {
+        p.setHealth(100);
+        System.out.println("A " + p.getClass().getSimpleName() + " healed.");
+    }
 
     private void initialize() {
         pokemons.add(new Pikachu("Bertil"));
         pokemons.add(new Pikachu("Sune"));
+        pokemons.add(new Muk());
 
-        pokemons.get(0).talk();
-        pokemons.get(0).attack();
-
-        pokemons.get(1).talk();
-        pokemons.get(1).attack();
+        for (Pokemon p : pokemons) {
+            p.talk();
+            p.attack();
+            if( p instanceof Pikachu)
+                healPokemon((Pikachu)p);
+            else
+                healPokemon(p);
+        }
 
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         new PokemonCenter().start();
     }
 }
