@@ -7,13 +7,13 @@ public class Program {
         Computer c = new PC("RedHat");
 
         //m is a Mac. playITunes() works
-        m.playITunes();
+      //  m.playITunes();
 
         //pc1 is a PC. playGame() works
-        pc1.playGame();
+      //  pc1.playGame();
 
         //c is a Computer when the compiler looks at the code.
-        c.printOS();
+     //   c.printOS();
 
         //This works. c is really a PC so we can typecast.
         PC pc2 = (PC)c;
@@ -22,6 +22,17 @@ public class Program {
        // Computer c2 = m;
        // PC pc3 = (PC)c2;
 
+        PC personalComputer = new PC("Windows");
+        Computer computer = new PC("RedHat");
+
+        personalComputer.printYourInventor();
+        computer.printYourInventor();
+
+        Mac macComputer = new Mac();
+        Computer computer1 = new Mac();
+
+        macComputer.printYourInventor();
+        computer1.printYourInventor();
 
 
 

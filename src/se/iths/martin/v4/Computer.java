@@ -11,4 +11,7 @@ public class Computer {
     public void printOS() {
         System.out.println("Operating system: " + os);
     }
+    public void printYourInventor() {
+        System.out.println("Alan Turing");
+    }
 }

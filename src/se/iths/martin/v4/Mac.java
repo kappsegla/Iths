@@ -10,4 +10,9 @@ public class Mac extends Computer {
         System.out.println("there’s music in the air");
     }
 
+    @Override
+    public void printYourInventor() {
+        super.printYourInventor();
+        System.out.println("Steve & Steve");
+    }
 }
