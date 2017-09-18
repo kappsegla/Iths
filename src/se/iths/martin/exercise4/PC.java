@@ -7,11 +7,11 @@ public class PC extends Computer {
 
     @Override
     public void boot() {
-        super.boot();
+        System.out.println("Starting " + getModel());
     }
 
     @Override
     public void crash() {
-        super.crash();
+        System.out.println("Blue Screen");
     }
 }

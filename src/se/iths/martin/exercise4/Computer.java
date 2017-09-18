@@ -46,7 +46,7 @@ public class Computer {
     }
 
     public void boot(){
-        System.out.println("Welcome!");
+        System.out.println("Welcome to " + getModel());
     }
 
     public void reinstall(){

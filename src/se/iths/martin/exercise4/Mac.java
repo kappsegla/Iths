@@ -7,11 +7,11 @@ public class Mac extends Computer {
 
     @Override
     public void boot() {
-        super.boot();
+        System.out.println("And we are ready...");
     }
 
     @Override
     public void crash() {
-        super.crash();
+        System.out.println("An error occured but you may continue.");
     }
 }
