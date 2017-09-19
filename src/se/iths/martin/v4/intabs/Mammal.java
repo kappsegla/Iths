@@ -1,4 +1,7 @@
 package se.iths.martin.v4.intabs;
 
-public class Mammal {
+public abstract class Mammal {
+
+    public abstract int getAge();
+
 }

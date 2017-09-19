@@ -20,6 +20,9 @@ public class Program {
         //Seal is not a Pet.
         //wash(s);
 
+        //Mammal is abstract. Can't create instances
+        //Mammal m = new Mammal();
+        Mammal m = new Dog();
 
     }
 }
