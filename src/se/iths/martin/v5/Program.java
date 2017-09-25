@@ -4,31 +4,44 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
 
+    public static Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        readAge();
+
+        int d = 0;
         try {
-            Scanner sc = new Scanner(System.in);
-            int d = 0;
+
             d = sc.nextInt();
 
             int i = 3 / d;
             System.out.println(i);
-        }
-        catch (ArithmeticException e) {
+        } catch (ArithmeticException e) {
             System.out.println("Ogiltig division!");
-        }
-        catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Felaktig inmatning, inte en Integer!");
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Alla andra fel hamnar här.");
+        } finally {
+            System.out.println("Körs alltid.");
         }
 
+        System.out.println("Gör något mer...." + d);
+    }
 
-
-        System.out.println("Gör något mer....");
-
-
-
+    public static void readAge() {
+        boolean valid = false;
+        do {
+            System.out.println("Enter your age:");
+            try {
+                int age = sc.nextInt();
+                System.out.println("Age accepted: " + age);
+                valid = true;
+            } catch (InputMismatchException e) {
+                System.out.println("Wrong, try again!");
+                sc.next();
+            }
+        } while (!valid);
     }
 }
