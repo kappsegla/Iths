@@ -5,7 +5,7 @@ public class Person {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age) throws AgeNegativeException {
         if( age < 0)
             throw new AgeNegativeException();
         this.age = age;

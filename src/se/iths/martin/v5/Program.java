@@ -9,10 +9,11 @@ public class Program {
 
     public static void main(String[] args) {
         Person p = new Person();
+
         try {
             p.setAge(-2);
         } catch (AgeNegativeException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
 
 
