@@ -8,6 +8,14 @@ public class Program {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        Person p = new Person();
+        try {
+            p.setAge(-2);
+        } catch (AgeNegativeException e) {
+            System.out.println(e.getMessage());
+        }
+
+
         readAge();
 
         int d = 0;
