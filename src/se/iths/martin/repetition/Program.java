@@ -1,6 +1,10 @@
 package se.iths.martin.repetition;
 
 public class Program {
+
+    public static int variableName;
+    public int variableTwo;
+
     //I java består en metods signatur av metodnamn + argumentstyper.
     //Returtyp ingår inte i signaturen
     public void metod1(){
@@ -18,9 +22,8 @@ public class Program {
 
     public static void main(String[] args) {
         Program p = new Program();  //Skapa en instance av klassen Program. Spara referensen i p
-        p.metod1();  //Instancmetod
+        p.metod1();  //Instancemetod
 
         Program.metod2(1,2.0); //Statisk metod, accessas via klassen
-
     }
 }
