@@ -5,9 +5,10 @@ public class ConsolePrinter {
     //baserat på inparametrarnas typer och antal och ordning.
     //Overloading och override är inte samma sak.
 
-    public static void println(String s){
+    public static void println(String s) {
         System.out.println(s);
     }
+
     //Dålig metod, använd overloading istället
 //    public static void printInt(int i) {
 //
