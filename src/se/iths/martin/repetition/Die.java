@@ -8,6 +8,9 @@ public class Die {
     private int sides;
     private boolean real;
 
+    //"Konstant" variabel som inte kan ändras. Namnges med stora bokstäver och underscore.
+    public static final int MAX_SIDES = 12;
+
     private static Random random = new Random();
 
     //Default konstruktor.
