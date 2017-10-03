@@ -9,14 +9,14 @@ public class Race {
     }
 
     private void game() {
-
         ArrayList<Vehicle> veichles = new ArrayList<>();
         veichles.add(new Car());  //Tack vare polymorfism kan vi lagra Car som en Vehicle
-        Vehicle v = new Car();
-        Car c = new Car();
-        v.move();
-        c.move();
+        veichles.add(new Bicycle());
 
-
+        for (Vehicle v : veichles ) {
+            v.move();
+            System.out.println("Vehicle " + v + " moved to a new record distance of " +
+                    v.getDistance() + " km.");
+        }
     }
 }
